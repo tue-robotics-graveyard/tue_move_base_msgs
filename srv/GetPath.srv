@@ -1,0 +1,14 @@
+# request
+geometry_msgs/PoseStamped target_pose
+
+# not implemented yet
+#float64 path_resolution
+#float64 goal_area_size
+#int32 nr_area_samples
+
+# radius in meters of goal area
+float64 goal_area_radius
+---
+# response
+geometry_msgs/PoseStamped[] path
+
